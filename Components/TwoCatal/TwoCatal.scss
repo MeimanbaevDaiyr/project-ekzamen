@@ -1,0 +1,44 @@
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1205px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    .TwoBlock{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+
+}
+h1{
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: uppercase;
+}
+p{
+    color: rgb(114, 114, 114);
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+button{
+    border-radius: 6px;
+    background: rgb(70, 163, 88);
+    width: 140px;
+    height: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,28 @@
+.MyAccaunt{
+    .Category-MyAcc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 310px;
+        div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                font-family: Cera Pro;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 45px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+    .Info-MyAcc{
+        .inputs-info{
+            .inputs-infos{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}

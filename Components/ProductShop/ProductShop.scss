@@ -1,0 +1,119 @@
+.shop-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    .Products-shop-image{
+        width: 573px;
+        height: 448px;
+        .product-four{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            .Product-image-m{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .product-one{
+            .Product-image-b{
+                position: absolute;
+                width: 404px;
+                height: 404px;
+                margin-top: -400px;
+                margin-left: 100px;
+                object-fit: cover;
+            }
+        }
+    }
+    .Products-info{
+        width: 574px;
+        h1{
+            color: rgb(61, 61, 61);
+            font-family: Cera Pro;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .price-zvezda{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h3{
+                color: rgb(70, 163, 88);
+                font-family: Cera Pro;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+        h2{
+            color: rgb(61, 61, 61);
+            font-family: Cera Pro;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        p{
+            color: rgb(114, 114, 114);
+            font-family: Cera Pro;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .button-plus{
+                border-radius: 50%;
+                width: 33px;
+                height: 38px;
+                background: linear-gradient(180.00deg, rgb(70, 163, 88),rgba(70, 163, 88, 0.8) 100%);
+            }
+            .button-minus{
+                border-radius: 50%;
+                width: 33px;
+                height: 38px;
+                background: linear-gradient(180.00deg, rgb(70, 163, 88),rgba(70, 163, 88, 0.8) 100%);
+            }
+            .button-heart{
+                border-radius: 50%;
+                width: 33px;
+                height: 38px;
+                background: linear-gradient(180.00deg, rgb(70, 163, 88),rgba(70, 163, 88, 0.8) 100%);
+            }
+        }
+        h3{
+            font-family: Cera Pro;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .logo-massage{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 300px;
+            h2{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+}

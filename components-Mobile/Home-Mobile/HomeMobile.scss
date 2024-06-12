@@ -1,0 +1,141 @@
+.home-mobile{
+    width: 414px;
+    height: 896px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+    margin-left: 500px;
+    .search-filter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 366px;
+        height: 45px;
+        margin: 0 auto;
+        
+        .CiSearch{
+            position: absolute;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        input{
+            border-radius: 10px;
+            background: rgb(248, 248, 248);
+            width: 313px;
+            height: 45px;
+            border: none;
+            text-align: center;
+            margin-top: 50px;
+        }
+        img{
+            border-radius: 14px;
+            box-shadow: 0px 10px 20px 0px rgba(70, 163, 88, 0.3);
+            background: linear-gradient(137.07deg, rgba(70, 163, 88, 0.45) -24.603%,rgb(70, 163, 88) 100%);
+            width: 45px;
+            height: 45px;
+            margin-top: 50px;
+        }
+    }
+    .banner-mobile{
+        img{
+            width: 366px;
+            height: 190px;
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+    }
+    .products-category{
+        .category{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 300px;
+            margin-left: 50px;
+            h2{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            h2:hover{
+                color: rgb(70, 163, 88);
+            }
+        }
+        .products{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: 30px;
+            div{
+                .icons{
+                    margin-left: 130px;
+                    position: absolute;
+                }
+                .product{
+                    width: 168px;
+                    height: 168px;
+                }
+                h3{
+                    color: rgb(61, 61, 61);
+                    font-family: Cera Pro;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    margin-top: -10px;
+                    margin-left: 10px;
+                }
+                h4{
+                    color: rgb(70, 163, 88);
+                    font-family: Cera Pro;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    margin-top: -10px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .footerMobile{
+        .scan{
+            box-shadow: 0px 10px 20px 0px rgb(211, 211, 211);
+            background: linear-gradient(180.00deg, rgba(70, 163, 88, 0.4) -16.923%,rgb(70, 163, 88) 109.231%);
+            width: 65px;
+            height: 65px;   
+            border-radius: 50%;
+            margin-top: -20px;
+            position: absolute;
+            margin-left: 170px;
+            .TbScan{
+                margin-left: 13.50px;
+                margin-top: 10px;
+                width: 40px;
+                height: 40px;
+                color: rgb(255, 255, 255);
+            }
+        }
+        .category-footer{
+            box-shadow: 0px -10px 30px 0px rgba(184, 184, 184, 0.2);
+            background: rgb(255, 255, 255);
+            width: 414px;
+            height: 94.95px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            .IoMdHome{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+.black{
+    background-color: black;
+}

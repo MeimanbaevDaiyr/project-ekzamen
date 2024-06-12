@@ -1,0 +1,330 @@
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    .inputs-buy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        h3{
+            color: rgb(61, 61, 61);
+            font-family: Cera Pro;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .Order{
+            box-sizing: border-box;
+            border: 1px solid rgb(234, 234, 234);
+            border-radius: 3px;
+            width: 350px;
+            height: 152px;            
+        }
+        .ship{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 200px;
+                margin-left: 25px;
+                input{
+                    width: 15px;
+                    height: 15px;
+                    box-sizing: border-box;
+                    border: 2px solid rgb(70, 163, 88);
+                }
+                h3{
+                    color: rgb(61, 61, 61);
+                    font-family: Cera Pro;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+        .inputs-info{
+            margin: 30px;
+            h2{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 15px;
+                letter-spacing: 0%;
+                text-align: left;
+                span{
+                    color: rgb(240, 56, 0);
+                    font-family: Cera Pro;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 15px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+            input{
+                box-sizing: border-box;
+                border: 1px solid rgb(234, 234, 234);
+                border-radius: 3px;
+                width: 350px;
+                height: 40px;
+            }
+            
+        }
+    }
+    .buy-products{
+        width: 405px;
+        h1{
+            color: rgb(61, 61, 61);
+            font-family: Cera Pro;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .product-category{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 405px;
+            .category-subotal{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-left: 280px;
+            }
+           .category-products{
+            color: rgb(61, 61, 61);
+            font-family: Cera Pro;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+           }
+        }
+        .products{
+            .product-1, .product-2, .product-3{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 405px;
+                div{
+                    h2{
+                        color: rgb(61, 61, 61);
+                        font-family: Cera Pro;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 16px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                    h3{
+                        font-family: Cera Pro;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 16px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+                h2{
+                    color: rgb(114, 114, 114);
+                    font-family: Cera Pro;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: right;
+                }
+                h4{
+                    color: rgb(70, 163, 88);
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: right;
+                }
+            }
+        }
+        h4{
+            font-family: Cera Pro;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: right;
+
+            span{
+                color: rgb(70, 163, 88);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: right;
+            }
+        }
+        .sub-copon{
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 321px;
+                    margin-left: 80px;
+                }
+            h2{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            h3{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: right;
+            }
+        }
+        .view-ship{
+            color: rgb(70, 163, 88);
+            font-family: Cera Pro;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+            margin-left: 300px;
+        }
+        .hr{
+            width: 321px;
+            border: 0.3px solid rgba(70, 163, 88, 0.5);
+            margin-left: 80px;
+        }
+        .totals-price{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 321px;
+            margin-left: 80px;
+            h1{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            h2{
+                color: rgb(70, 163, 88);
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: right;
+            }
+        }
+        .Payment{
+            color: rgb(61, 61, 61);
+            font-family: Cera Pro;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-left: 80px;
+        }
+        button{
+            border-radius: 3px;
+            width: 321px;
+            height: 40px;
+            background: rgb(70, 163, 88);
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+    }
+}
+.h1-billing{
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 10px;
+    position: absolute
+}
+.radio-h2-icons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-sizing: border-box;
+                border: 1px solid rgb(234, 234, 234);
+                border-radius: 3px;
+                width: 321px;
+                height: 45px;
+                margin: 5px;
+                margin-left: 80px;
+                input{
+                    box-sizing: border-box;
+                    border: 1.2px solid rgb(70, 163, 88); 
+                    width: 16px;
+                    height: 16px;
+                }
+                div{
+                    
+                    width: 300px;
+                    margin: 0 auto;
+                   
+                h2{
+                    color: rgb(61, 61, 61);
+                    font-family: Cera Pro;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: right;
+                    margin-right: 170px;
+                } 
+                img{
+                    margin-left: 10px;
+                }
+                }
+                
+            }
+            .home{
+                color: rgb(61, 61, 61);
+                font-family: Cera Pro;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-left: 180px;
+                span{
+                    color: rgb(61, 61, 61);
+                    font-family: Cera Pro;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 15px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
